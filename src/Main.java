@@ -35,7 +35,7 @@ public class Main {
         }
         System.out.println("get char:");
         try {
-            s5.getChars(2, 15, ch, 0);
+            s5.getChars(2, 10, ch, 0);
             System.out.println(ch);
         } catch (Exception ex) {
             System.out.println(ex);
